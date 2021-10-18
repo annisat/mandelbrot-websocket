@@ -43,7 +43,7 @@ const APP = {
 				radius: this.radius
 			});
 			socket.on('server_reponse', data => {
-                this.raw_prog = data.prog;
+				this.raw_prog = data.prog;
 				this.b64img = data.img;
             })
 		},
