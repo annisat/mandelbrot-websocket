@@ -2,9 +2,9 @@
 <div class="panel" align="left">
 	<div class="panel-content">
 		Center = 
-		<input type="number" placeholder='Real' v-model="input_r">
+		<input type="number" placeholder='Real' v-bind="input_r">
 		+
-		<input type="number" placeholder='Imaginary' v-model="input_i">
+		<input type="number" placeholder='Imaginary' v-bind="input_i">
 		j
 	</div>
 	<div class="panel-content">
